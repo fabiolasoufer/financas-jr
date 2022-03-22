@@ -15,7 +15,12 @@
         }
 
         .body {
-          background-color: #2e2932;          
+          background-color: #2e2932;
+          color: #a7767c;          
+        }
+
+        .banner {
+          background-color: #a7767c;              
         }
 
         .h1,h2 {
@@ -26,10 +31,10 @@
     <title>Finanças Júnior!</title>
   </head>
   <body>
-  
+  <div class="body">
 <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light body">
-        <a class="navbar-brand text-light" href="#">Finanças Júnior!</a>
+    <nav class="navbar navbar-expand-lg navbar-light banner">
+        <a class="navbar-brand text-light font-weight-bolder" href="#">Finanças Júnior!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,32 +42,32 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-light font-weight-light" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#sobre">Sobre</a>
+              <a class="nav-link text-light font-weight-light" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link text-light dropdown-toggle font-weight-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                 Dicas Financeiras
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#educa">Educação Financeira</a>
-                <a class="dropdown-item" href="#investe">Investimentos</a>
+                <a class="dropdown-item font-weight-light" href="#educa">Educação Financeira</a>
+                <a class="dropdown-item font-weight-light" href="#investe">Investimentos</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#dicas">Dicas Financeiras</a>
+                <a class="dropdown-item font-weight-light" href="#dicas">Dicas Financeiras</a>
               </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#depoimentos">Depoimentos</a>
+                <a class="nav-link text-light font-weight-light" href="#depoimentos">Depoimentos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#contato">Contato</a>
+                <a class="nav-link text-light font-weight-light" href="#contato">Contato</a>
             </li>            
           </ul>
           <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search"   placeholder="Busca" aria-label="Search">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Busca</button>
+                <input class="form-control mr-sm-2 font-weight-light" type="search"   placeholder="Busca" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0 font-weight-light" type="submit">Busca</button>
           </form>
         </div>
       </nav>
@@ -96,7 +101,7 @@
 <!--/Carousel-->
 
 <!--Jumbotron-->
-<div class="jumbotron jumbotron-fluid body">
+<div class="jumbotron jumbotron-fluid banner">
   <div class="container">
     <h1 class="display-4 text-light" id="sobre">O maior site de finanças do mundo.</h1>
     <p class="lead text-light">A Finanças Júnior! surgiu com o intuito de levar liberdade para cada brasileiro através da educação financeira. </p>
@@ -108,7 +113,7 @@
 
 <!--Cards-->
 <div class="container">
-  <h2 id="depoimentos" class="mb-4 t-5 text-monospace">Depoimentos</h2>
+  <h2 id="depoimentos" class="mb-4 t-5 font-weight-bolder">Depoimentos</h2>
   <div class="card-columns ">
   <div class="card">
       <div class="card-body">
@@ -163,7 +168,7 @@
 <!--/Cards-->
 
 <!--Jumbotron Dicas Financeiras-->
-<div class="jumbotron jumbotron-fluid body mt-5">  
+<div class="jumbotron jumbotron-fluid banner mt-5">  
   <div class="container">
     <h1 class="display-4 text-light" id="dicas">Dicas Financeiras</h1>
     <p class="lead text-light">Começe por aqui! Dicas de educação financeira e investimentos para júniors. </p>
@@ -177,7 +182,7 @@
 <div class="container">
 <div class="row mt-5 mb-5">
     <div class="col-md-6">
-      <h2 id="educa" class="mb-4 text-monospace">Educação Financeira</h2>
+      <h2 id="educa" class="mb-4 font-weight-bolder">Educação Financeira</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti fugit sequi ducimus consectetur tempora saepe officia dolorem nisi, velit accusamus, recusandae porro in. Tempore magnam error recusandae, rem pariatur quam!</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis at minus quam temporibus soluta fugit nisi quaerat non consectetur voluptatem nemo rem eligendi repellat ratione, vero voluptatibus nam suscipit modi.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur minima explicabo molestias officiis maiores sapiente iusto placeat, hic id veritatis! Ab totam voluptatem dolorum voluptate quis eligendi eius facilis sint.</p>
@@ -192,7 +197,7 @@
 <!--Investimentos-->
 <div class="row mt-5 mb-5">
   <div class="col-md-6">
-    <h2 id="investe" class="mb-4 text-monospace">Investimentos</h2>
+    <h2 id="investe" class="mb-4 font-weight-bolder">Investimentos</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti fugit sequi ducimus consectetur tempora saepe officia dolorem nisi, velit accusamus, recusandae porro in. Tempore magnam error recusandae, rem pariatur quam!</p>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis at minus quam temporibus soluta fugit nisi quaerat non consectetur voluptatem nemo rem eligendi repellat ratione, vero voluptatibus nam suscipit modi.</p>
   </div>
@@ -206,7 +211,7 @@
 <!--Formulário-->
 <div class="row">
     <div class="col-md-12">
-      <h2 id="contato" class="mb-4 text-monospace">
+      <h2 id="contato" class="mb-4 font-weight-bolder">
         Entre em contato conosco:
         </h2>
     </div>
@@ -270,7 +275,7 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-primary" type="submit">Enviar</button>
+        <button class="btn btn-light" type="submit">Enviar</button>
       </form>
       
       <script>
@@ -325,6 +330,7 @@
 </footer>
 </div>
 <!--/Rodapé-->
+</div>
 
 <!--Scripts necessário para a utilização dos códigos JS do Bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
